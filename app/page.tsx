@@ -10,36 +10,62 @@ export default function Home() {
     "PostgreSQL",
   ];
 
-  return (
-    <main className="min-h-screen bg-zinc-100 p-8">
-      <div className="mx-auto max-w-5xl">
-        <header className="mb-10">
-          <h1 className="text-5xl font-bold">
-            Dev Academy 🚀
-          </h1>
+return (
+  <div className="min-h-screen bg-zinc-100">
+    <header className="bg-white shadow-sm">
+      <div className="mx-auto max-w-5xl p-6">
+        <h1 className="text-4xl font-bold">
+          Dev Academy 🚀
+        </h1>
 
-          <p className="mt-3 text-zinc-600">
-            Mi roadmap completo hacia Fullstack Developer.
-          </p>
-        </header>
+        <nav className="mt-4 flex gap-6">
+          <a href="#">Inicio</a>
+          <a href="#">Cursos</a>
+          <a href="#">Contacto</a>
+        </nav>
+      </div>
+    </header>
 
-        <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <main className="mx-auto max-w-5xl p-8">
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold">
+          Bienvenido
+        </h2>
+
+        <p className="mt-2 text-zinc-600">
+          Aprende desarrollo web moderno paso a paso.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="mb-6 text-2xl font-semibold">
+          Roadmap
+        </h2>
+
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {modules.map((module) => (
-            <div
+            <article
               key={module}
-              className="rounded-xl bg-white p-6 shadow-md transition hover:scale-105"
+              className="rounded-xl bg-white p-6 shadow-md"
             >
-              <h2 className="text-xl font-semibold">
+              <h3 className="text-xl font-semibold">
                 {module}
-              </h2>
+              </h3>
 
               <p className="mt-2 text-sm text-zinc-500">
                 En desarrollo
               </p>
-            </div>
+            </article>
           ))}
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
-  );
+
+    <footer className="mt-12 border-t bg-white">
+      <div className="mx-auto max-w-5xl p-6">
+        <p>© 2026 Dev Academy</p>
+      </div>
+    </footer>
+  </div>
+);
 }
