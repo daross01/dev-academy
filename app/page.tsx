@@ -38,6 +38,16 @@ return (
       </section>
 
       <section>
+        <h2 className="text-2x1 font-semibold">
+          Sobre Dev Academy 
+        </h2>
+
+        <p className="mt-2 text-zinc-600">
+          Una plataforma creada para aprender desarrollo web moderno.
+        </p>
+      </section>
+
+      <section>
         <h2 className="mb-6 text-2xl font-semibold">
           Roadmap
         </h2>
