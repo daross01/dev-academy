@@ -6,6 +6,8 @@ export default function Home() {
     "TypeScript",
     "React",
     "Next.js",
+    "Backend",
+    "PostgreSQL",
   ];
 
   return (
@@ -32,7 +34,7 @@ export default function Home() {
               </h2>
 
               <p className="mt-2 text-sm text-zinc-500">
-                Próximamente...
+                En desarrollo
               </p>
             </div>
           ))}
