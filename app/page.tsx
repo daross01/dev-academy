@@ -38,7 +38,7 @@ return (
       </section>
 
       <section>
-        <h2 className="text-2x1 font-semibold">
+        <h2 className="mb-6 text-2x1 font-semibold">
           Sobre Dev Academy 
         </h2>
 
