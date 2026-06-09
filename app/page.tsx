@@ -37,12 +37,12 @@ return (
         </p>
       </section>
 
-      <section>
+      <section className="mb-10">
         <h2 className="text-2xl font-semibold">
           Sobre Dev Academy 
         </h2>
 
-        <p className="mt-6 text-zinc-600">
+        <p className="mt-2 text-zinc-600">
           Una plataforma creada para aprender desarrollo web moderno.
         </p>
       </section>
