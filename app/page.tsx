@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   const modules = [
     "HTML",
@@ -45,6 +47,23 @@ return (
         <p className="mt-2 text-zinc-600">
           Una plataforma creada para aprender desarrollo web moderno.
         </p>
+      </section>
+
+      <section className ="mb-10">
+        <h2 className ="text-2xl font-semibold">
+          Recursos Multimedia
+        </h2>
+
+        <p className ="mt-2 text-zinc-600">
+          Aquí aprenderemos a trabajar con imágenes y vídeos en la web.
+        </p>
+
+        <Image 
+        src="/next.svg" 
+        alt="logo Next" 
+        width={200} 
+        height={40}/>
+
       </section>
 
       <section>
