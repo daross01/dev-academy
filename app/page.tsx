@@ -38,11 +38,11 @@ return (
       </section>
 
       <section>
-        <h2 className="mb-6 text-2x1 font-semibold">
+        <h2 className="text-2xl font-semibold">
           Sobre Dev Academy 
         </h2>
 
-        <p className="mt-2 text-zinc-600">
+        <p className="mt-6 text-zinc-600">
           Una plataforma creada para aprender desarrollo web moderno.
         </p>
       </section>
